@@ -1,6 +1,6 @@
 {
   "name": "fdy-convertor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert telethon and pyrogram .session file to gram.js StringSession",
   "main": "index.js",
   "scripts": {

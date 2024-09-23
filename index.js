@@ -165,10 +165,12 @@ class FdyConvertor {
 
   delete() {
     try {
-      this.#files.map((file) => {
-        fs.unlinkSync(path.resolve(this.#path, file));
+      let fileNames = [];
+      this.#sessions.map((session) => {
+        fileNames.push(session.filename);
+        fs.unlinkSync(path.resolve(this.#path, session?.filename));
       });
-      return this.#files;
+      return fileNames;
     } catch (error) {
       throw new FdyConvertorError(error.message);
     }
