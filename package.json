@@ -1,0 +1,32 @@
+{
+  "name": "fdy-convertor",
+  "version": "1.0.0",
+  "description": "Convert telethon and pyrogram .session file to gram.js StringSession",
+  "main": "./src/index.js",
+  "bin": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyWhest/fdy-convertor.git"
+  },
+  "keywords": [
+    "gram.js",
+    "gramjs",
+    "telegram",
+    "string-session",
+    "telethon-session"
+  ],
+  "author": "Alfred Nti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreddyWhest/fdy-convertor/issues"
+  },
+  "homepage": "https://github.com/FreddyWhest/fdy-convertor#readme",
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "telegram": "^2.25.4"
+  }
+}
