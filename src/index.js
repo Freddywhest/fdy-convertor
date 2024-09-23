@@ -207,3 +207,5 @@ class FdyConvertor {
 }
 
 module.exports = FdyConvertor;
+
+module.exports.FdyConvertor = FdyConvertor;
